@@ -1,0 +1,7 @@
+#!/bin/sh
+
+export FOLLOW_COMPILER=/usr/bin/gcc
+export FOLLOW_DIR=`pwd`/..
+export FOLLOW_LEAKCHECK=1
+
+make CC=`pwd`/../follow
